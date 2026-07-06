@@ -31,6 +31,19 @@ A Python web scraper that collects job listings from the Jobinja website and ext
 * BeautifulSoup4
 * Pandas
 
+## Installation
+
+Clone the repository and install the required packages from requirements.txt file or install them manually.
+
+## Usage
+
+Run the scraper:
+
+```bash
+python scraper.py
+```
+
+After execution, the scraped data will be available and exported in excel formats under the name Scraped_data.
 
 ## Collected Fields
 
@@ -53,4 +66,3 @@ A Python web scraper that collects job listings from the Jobinja website and ext
 * The scraper is designed for educational and research purposes.
 * Some job postings may not contain all fields. Missing values are stored as `None`.
 * The website structure may change over time, requiring updates to the HTML selectors.
-
